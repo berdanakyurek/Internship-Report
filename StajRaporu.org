@@ -1,0 +1,115 @@
+* Introduction
+
+  # In this section make an introduction to your report and give brief information about where you have done your training (more info about that will be given in the next section) and your motivation for choosing this place. Briefly summarize the work you have done, the motivation behind your work, and the significance of the work you have done in the overall project.
+  # Please remove these explanations in this template after you read them or while you are writing your report. These explanations are marked with yellow color like here. Make sure you read and correct your report a few times after you write it.
+  # Please modify the parts that are marked with green color in this template according to your case (for example in the Cover Page).
+  # You need to be careful about putting references to the end of the report and citing them properly in the text like the example just here [2,4,5,10]. You can cite a single reference like this [3].
+  # Please make sure you follow a good writing style while writing your report. There are a lot of resources in Internet and Library about academic/report writing in English language. Information about some writing resources that you can benefit are added to the reference list at the end [1,2,3,4,12,13].
+  # Please also explain the organization of the rest of the report in the last paragraph of this section.
+
+* Company Information
+
+** About the company
+   The internship is completed in the company BK Mobil. BK Mobil is a software company focused on
+   education technologies. It's main office is located in Bilkent Cyberpark. It also has two other
+   offices in Istanbul.
+
+   The main product of BK Mobil is called Metodbox. It is an online learning platform that is used
+   by primary and high school students. It is available as a website and mobile applications for
+   Android and IOS operating systems. It consists of many features like lectures, lecture videos,
+   exam reports, performance metrics for students. Also, it is used integrated with teachers,
+   administrative staff and parents. Teachers and administrative staff use Metodbox for assigning
+   homework, communicating with students using instant messaging feature, and tracking individual
+   or success of students. Lastly, parents can use Metodbox to keep updated about the progress of
+   their children. Metodbox also uses AI concepts to implement some advanced features like grading
+   automation, information review adaptive learning and personalized learning.
+
+   Other than Metodbox, BK Mobil also has a video conferencing solution SeeMeet, a project based
+   learning platform Metodbox Bee and specific applications implemented for Uğur Schools and
+   Bahçeşehir College.
+
+** About your department
+
+** About the hardware and software systems
+   The company was flexible in terms of hardware and software. Although they offered to give me a
+   laptop, I had the option to use my own computer. Therefore, I used my own laptop instead of
+   theirs. However, the laptops of the company are mostly Dell computers with Windows operating
+   system. However, there were people using Mac and Linux computers as well.
+** About your supervisor
+   During my internship, my supervisor was Ahmet Ilhan Aydogdu. He is graduated from Pamukkale
+   University, Department of Computer Engineering in 2017. He works as a software developer in
+   BK mobil for four years. He also has similar experience in two other companies as a Software
+   Engineer.
+   # The supervisor’s name and job title, along with his or her university and department and year of graduation must be stated here.
+
+* Work Done
+  # This section can have one or more subsections. It is up to you. But this section should be detailed enough.
+
+
+** Learning React
+
+   In the first day of my internship, my supervisor asked me which technologies I have experience
+   with. Since my company is a mobile and web company, I told them my mobile application experience
+   which I acquired during my CS102 project and my Senior project using Java. He asked more
+   specifically about my web experience with JavaScript and ReactJS. Since I had no experience with
+   them, my supervisor asked me to learn them at first by following tutorials and implement a basic
+   project with the tutorials.
+
+   I started learning React with a YouTube tutorial[]. While watching the tutorial, I tried to do
+   the coding on my own as well. The tutorial was on implementing a todo list with adding todo,
+   marking todos as completed or not completed and clearing completed todos. I implemented the list
+   according to the tutorial. After completing the tutorial, I wanted to add some extra features
+   that were not present in the original tutorial. Therefore, I added filtering feature, where user can
+   filter todos as all todos, only completed todos or only active todos. Lastly, I added a Dark mode
+   feature where user can choose to use dark mode instead of white mode. I  pushed the resulting
+   project in a public GitHub repository[].
+
+*** Learning React Routers
+    After completing my first project and checking with my supervisor, my supervisor asked me to
+    learn two more concepts, which are Routers and Redux and show them in projects. Therefore, I
+    started with learning Routers.
+
+    In order to learn what Routers are and how they are used in React, I used a documentation about
+    it[]. Routers are React components that are used for easy navigation among different pages. In
+    order to test my knowledge, I implemented a simple template web page that have a home page, an
+    about page and a contact page, where users can switch among pages using the navigation bar on top
+    of each page and navigation is done with React Routers.
+
+    In this simple project, communication cost between client and server is reduced. In a classic
+    web page, every time user switches among two pages, a new request is sent to the server and new
+    web page content is sent back by the server. However, using React and Routers, this is reduced
+    to a single request. At the first connection, user takes the contents of pages and loading
+    another page is done on the client-side. I pushed the resulting project in a public GitHub
+    repository again[].
+
+*** Learning React Redux
+    Later, I started learning about Redux and its usage with React. In order to do this, I followed
+    a YouTube tutorial again[]. In React, data can be passed among React components in a single
+    direction, among parent and child. However, it cannot be passed among siblings. In order to two
+    Component to use the same data, the data must be stored at least in their lowest common
+    ancestor. Therefore, data is tend to be stored somewhere else than the places it is used. This
+    creates a lack of organization. This problems can be solved with Redux. With Redux, data is
+    stored in a distinct place where it is accessible from components by methods provided by the
+    library.
+
+    In order to see a working example of Redux, I implemented a simple counter following a
+    tutorial[]. There is a counter with initial value zero and there are two buttons to
+    increment and decrement the counter value by one. Although it is not very convenient to use
+    Redux in this project, it was useful to learn because it takes time to set up Redux and it is
+    easier to not to use in small projects. However, it was helpful to learn how the concept
+    works. The resulting project is pushed in a public GitHub repository[].
+
+* Performance and Outcomes
+  # You must have all these sections in your report.
+** Solving Complex Engineering Problems
+
+** Recognizing Ethical and Professional Responsibilities
+
+** Making Informed Judgments
+
+** Acquiring New Knowledge by Using Appropriate Learning Strategies
+
+** Applying New Knowledge As Needed
+
+* Conclusions
+  # Here you will write your conclusions. You can discuss your training and the company as well. Give a summary of the most important things you learned.
