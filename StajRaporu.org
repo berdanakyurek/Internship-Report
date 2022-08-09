@@ -10,11 +10,11 @@
 * Company Information
 
 ** About the company
-   The internship is completed in the company BK Mobil. BK Mobil is a software company focused on
+   The internship is completed in the company BK Mobil[]. BK Mobil is a software company focused on
    education technologies. It's main office is located in Bilkent Cyberpark. It also has two other
    offices in Istanbul.
 
-   The main product of BK Mobil is called Metodbox. It is an online learning platform that is used
+   The main product of BK Mobil is called Metodbox[]. It is an online learning platform that is used
    by primary and high school students. It is available as a website and mobile applications for
    Android and IOS operating systems. It consists of many features like lectures, lecture videos,
    exam reports, performance metrics for students. Also, it is used integrated with teachers,
@@ -24,8 +24,8 @@
    their children. Metodbox also uses AI concepts to implement some advanced features like grading
    automation, information review adaptive learning and personalized learning.
 
-   Other than Metodbox, BK Mobil also has a video conferencing solution SeeMeet, a project based
-   learning platform Metodbox Bee and specific applications implemented for Uğur Schools and
+   Other than Metodbox, BK Mobil also has a video conferencing solution SeeMeet[], a project based
+   learning platform Metodbox Bee[] and specific applications implemented for Uğur Schools and
    Bahçeşehir College.
 
 ** About your department
@@ -35,6 +35,10 @@
    laptop, I had the option to use my own computer. Therefore, I used my own laptop instead of
    theirs. However, the laptops of the company are mostly Dell computers with Windows operating
    system. However, there were people using Mac and Linux computers as well.
+
+   The company uses Bitbucket for source code hosting. For the project I worked on, ReactJS is used
+   for front-end and PHP is used for back-end.
+
 ** About your supervisor
    During my internship, my supervisor was Ahmet Ilhan Aydogdu. He is graduated from Pamukkale
    University, Department of Computer Engineering in 2017. He works as a software developer in
@@ -98,6 +102,22 @@
     Redux in this project, it was useful to learn because it takes time to set up Redux and it is
     easier to not to use in small projects. However, it was helpful to learn how the concept
     works. The resulting project is pushed in a public GitHub repository[].
+
+** Mentonet
+   After completing all tasks and checking them with my supervisor, I am granted access to a real
+   project which is called Mentonet[]. This project is a website for sharing surveys with
+   students. It is still not deployed and under development. It is being developed using ReactJS on
+   front-end and PHP on back-end. Its source code is stored in Bitbucket.
+
+*** Setup and Adaptation
+    In order to start the project, I created a Bitbucket account and company invited me to the
+    repository. I cloned the repository and made necessary configurations in order to run it
+    locally. Later I examined the website by simply using it without checking the code. Later, I
+    started from main component and tried to understand its working by tracing the code. I made
+    minor changes in the code when necessary, in order to understand what each component do. This
+    way I familiarized myself with the code and its organization. This way I could know where to
+    look when I need something.
+
 
 * Performance and Outcomes
   # You must have all these sections in your report.
