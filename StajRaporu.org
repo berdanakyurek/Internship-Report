@@ -31,6 +31,7 @@
 ** About your department
 
 ** About the hardware and software systems
+
    The company was flexible in terms of hardware and software. Although they offered to give me a
    laptop, I had the option to use my own computer. Therefore, I used my own laptop instead of
    theirs. However, the laptops of the company are mostly Dell computers with Windows operating
@@ -40,6 +41,7 @@
    for front-end and PHP is used for back-end.
 
 ** About your supervisor
+
    During my internship, my supervisor was Ahmet Ilhan Aydogdu. He is graduated from Pamukkale
    University, Department of Computer Engineering in 2017. He works as a software developer in
    BK mobil for four years. He also has similar experience in two other companies as a Software
@@ -48,7 +50,6 @@
 
 * Work Done
   # This section can have one or more subsections. It is up to you. But this section should be detailed enough.
-
 
 ** Learning React
 
@@ -118,18 +119,77 @@
     way I familiarized myself with the code and its organization. This way I could know where to
     look when I need something.
 
+*** Settings Page
+    After getting used to the project, my supervisor asked me to implement the settings page of
+    Mentonet. Using this page, an administrator can set the settings like the deadline and the goal
+    of the survey. Similarly, it is possible to set which degrees are going to solve the survey
+    using this screen as well. A screenshot of this screen is included in Appendix 1.
+
+*** Formatting Surveys List
+    After completing the Settings page, my supervisor asked me to format the survey list page. In
+    this page, a user can see the list of surveys he/she is authorized to see. Administrators can
+    click the button next to each survey in the list to edit the survey or guests can click a
+    similar button next to each list item in order to solve that survey. This page was already
+    implemented, however I formatted this page so that more information is displayed, and full
+    description of the survey is displayed on a popover when hovered on a list item. Necessary
+    changes are done on the routers in order to display different buttons for administrators and
+    guests. A screenshot of this screen is included in Appendix 2.
+
+*** Solve Survey Page
+    When I completed all work with the surveys list, I am asked to implement survey solving
+    page. This page is designed for guests to solve the surveys. In this page, each question of
+    different possible types is displayed sequentially. User can mark or type his/her answers and
+    can submit the form by clicking on a button. Implementation of this page is done using the
+    implementation of survey creation page. Since survey creation page is similar to survey solving
+    page, it was possible to make some changes on the code to implement the new code, instead of
+    starting from scratch. A screenshot of this page is included in Appendix 3.
 
 * Performance and Outcomes
   # You must have all these sections in your report.
+
 ** Solving Complex Engineering Problems
 
 ** Recognizing Ethical and Professional Responsibilities
+
+   During my internship, I faced some ethical and professional responsibilities. I understood these
+   responsibilities and followed them during my internship.
+
+*** Ethical Responsibilities
+
+    While implementing the tasks that are assigned to me, ethical responsibilities are followed. For
+    example, while implementing Mentonet, although there are easier ways to do something, the most
+    efficient way is searched. This way unnecessary resource usage is prevented. This way the users
+    can reach the content provided with small amount of data, battery, CPU usage etc. This is an
+    ethical responsibility of the developer against both the users and the nature. For example,
+    instead of sending request for each page each time, less requests are used and navigation among
+    pages is done on client side. This way the communication cost is reduced.
+
+*** Professional Responsibilities
+
 
 ** Making Informed Judgments
 
 ** Acquiring New Knowledge by Using Appropriate Learning Strategies
 
+   The tools that are used during my internship mostly were not familiar to me. Before my
+   internship, I had no experience with web development and ReactJS. Therefore, I was not qualified
+   enough to contribute to a real project. Therefore I am asked to learn React by my
+   supervisor. Also, I learned sub-concepts of React by implementing small projects. In order to do
+   this, I used YouTube videos. However, instead of simply watching a video, I made the
+   implementation and even took them further. This was the main strategy I used for learning.
+
 ** Applying New Knowledge As Needed
+
+   The knowledge learned and explained in the previous section are used during the tasks assigned to
+   me. Programming with React, which was a new skill for me was used in a real-life project called
+   Mentonet. Sub-concepts like Redux and Routers are also very useful in Mentonet. The transitions
+   between pages are implemented in an organized and readable way using React routers. Similarly,
+   the communication between front-end and back-end are handled using Redux with a similar organized
+   and readable approach.
 
 * Conclusions
   # Here you will write your conclusions. You can discuss your training and the company as well. Give a summary of the most important things you learned.
+
+* References
+
+* Appendices
