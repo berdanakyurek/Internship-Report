@@ -14,7 +14,7 @@
 ** About the company
    The internship is completed in the company BK Mobil[cite:@bkmobil]. BK Mobil is a software
    company focused on education technologies. It's main office is located in Bilkent Cyberpark. It
-   also has two other offices in Istanbul.
+   also has two other offices in Ankara and Istanbul.
 
    The main product of BK Mobil is called Metodbox[cite:@metodbox]. It is an online learning
    platform that is used by primary and high school students. It is available as a website and
@@ -201,41 +201,6 @@
 * Conclusions
   # Here you will write your conclusions. You can discuss your training and the company as well. Give a summary of the most important things you learned.
 
-* Referenceeees
-
-  + [1]"BK Mobil | BK Tomorrow - future of education technology",
-    Bktomorrow.com. [Online]. Available: https://bktomorrow.com/. [Accessed: 15- Aug- 2022].
-  + [2]"Metodbox | BK Mobil", Bktomorrow.com. [Online]. Available:
-    https://bktomorrow.com/Metodbox2.html. [Accessed: 15- Aug- 2022].
-  + [3]"SeeMeet | BK Mobil", Bktomorrow.com. [Online]. Available:
-    https://bktomorrow.com/SeeMeet2.html. [Accessed: 15- Aug- 2022].
-  + [4]"Metodbox Bee | BK Mobil", Bktomorrow.com. [Online]. Available:
-    https://bktomorrow.com/Metodbox-Bee2.html. [Accessed: 15- Aug- 2022].
-  + [5]"Bitbucket | Git solution for teams using Jira", Bitbucket. [Online]. Available:
-    https://bitbucket.org. [Accessed: 15- Aug- 2022].
-  + [6]"React – A JavaScript library for building user interfaces",
-    Reactjs.org. [Online]. Available: https://reactjs.org/. [Accessed: 15- Aug- 2022].
-  + [7]Web Dev Simplified, "Learn React In 30 Minutes", Youtube.com. [Online]. Available:
-    https://www.youtube.com/watch?v=hQAHSlTtcmY. [Accessed: 15- Aug- 2022].
-  + [8]B. Akyürek, "GitHub - berdanakyurek/React-Test", GitHub. [Online]. Available:
-    https://github.com/berdanakyurek/React-Test. [Accessed: 15- Aug- 2022].
-  + [9]"Code 15 React Projects - Complete Course", Youtube. [Online]. Available:
-    https://youtu.be/a_7Z7C_JCyo?t=1181. [Accessed: 15- Aug- 2022].
-  + [10]B. Akyürek, "GitHub - berdanakyurek/React-Tour-App", GitHub. [Online]. Available:
-    https://github.com/berdanakyurek/React-Tour-App. [Accessed: 15- Aug- 2022].
-  + [11]"React Router: Declarative Routing for React", ReactRouterWebsite. [Online]. Available:
-    https://v5.reactrouter.com/web/guides/quick-start. [Accessed: 15- Aug- 2022].
-  + [12]B. Akyürek, "GitHub - berdanakyurek/React-Router-Example", GitHub. [Online]. Available:
-    https://github.com/berdanakyurek/React-Router-Example. [Accessed: 15- Aug- 2022].
-  + [13]D. Ed, "Redux For Beginners | React Redux Tutorial", Youtube. [Online]. Available:
-    https://youtu.be/CVpUuw9XSjY. [Accessed: 15- Aug- 2022].
-  + [14]B. Akyürek, "GitHub - berdanakyurek/React-Redux-Example", GitHub, 2022. [Online]. Available:
-    https://github.com/berdanakyurek/React-Redux-Example. [Accessed: 15- Aug- 2022].
-  + [15]"Mentonet", Mentonet. [Online]. Available: https://dev.mentonet.com/. [Accessed: 15- Aug-
-    2022].
-
 * Appendices
-
-
 
 #+PRINT_BIBLIOGRAPHY:
