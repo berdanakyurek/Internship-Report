@@ -12,6 +12,7 @@
 * Company Information
 
 ** About the company
+
    The internship is completed in the company BK Mobil[cite:@bkmobil]. BK Mobil is a software
    company focused on education technologies. It's main office is located in Bilkent Cyberpark. It
    also has two other offices in Ankara and Istanbul.
@@ -115,7 +116,7 @@
     it is easier to not to use in small projects. However, it was helpful to learn how the concept
     works. The resulting project is pushed in a public GitHub repository[cite:@reduxexample].
 
-** Mentonet
+** Starting with Mentonet
    After completing all tasks and checking them with my supervisor, I am granted access to a real
    project which is called Mentonet[cite:@mentonet]. This project is a website for sharing surveys
    with students. It is still not deployed and under development. It is being developed using
@@ -154,6 +155,52 @@
     implementation of survey creation page. Since survey creation page is similar to survey solving
     page, it was possible to make some changes on the code to implement the new code, instead of
     starting from scratch. A screenshot of this page is included in Appendix 3.
+
+*** Solving Layout Problems
+    After implementing the previous features, my supervisor realized an unexpected shift in the
+    layout and asked me to correct it. It was surprising because I did not do anything about the
+    layout. I switched back to my previous commits to understand where exactly the problem
+    occurs. After finding the commit the error started to occur, we tried to figure out why it is
+    broken. I compared execution of previous version with current one. I copied and pasted each line
+    of code to new version and figured out which line exactly was the problem and solved it.
+
+** Metodbox
+   When the above tasks were completed, my supervisor asked me to move to another project, called
+   Metodbox. Because Mentonet was a new project and there were a lot of decisions that must be done
+   beforehand. Therefore, I moved to Mentonet. Mentonet is also a React project. As explained in the
+   company information part, it is an AI based learning platform. It is used by many students and
+   teachers from different schools.
+
+*** Adaptation to the Project
+    After being authorized to the code, I cloned the repository and made necessary configurations to
+    run it locally. Similar to what I did in the previous project Mentonet, I followed the code and
+    tried to understand the code. Shortly, the first task of my project is assigned to me.
+
+*** Selected Week Homeworks Does Not Update Bug
+    The first task that is assigned to me was to solve a small bug. In the system, there is a user
+    interface where user selects a week from the calendar and the homeworks of that week is
+    displayed. However, this function were not working and only the homeworks of the current week
+    was displayed due to a bug. My task was to solve this bug. In order to do this, I tracked the
+    code to the place where the calendar is defined. Later I printed the necessary variables to
+    understand what was the problem and realized that a particular variable was always returning
+    empty. Later, I followed the variable starting from its definition and each change of
+    it. Finally, I found the place where the error occurs and solved it. Although the total change I
+    made was around five lines of code, it took me hours to figure out the problem before making the
+    necessary change.
+
+*** Class Card Modifications
+    After solving my first bug of the project, I am asked to make two more changes. These were due
+    to a user interface where users see their classes of the day. In this screen, on the corner of
+    each class, there were information about it as "Not started yet", "Ongoing" or
+    "Completed". However, according to the requirements, this information need to be visible only
+    for students but not teachers. Therefore, it should be absent in the case of a teacher
+    account. Similarly, there are badges on the bottom of each class card which shows progress of
+    students by colors. It appears in gray if student has no progress, in blue if student is started
+    but not completed yet, in green if student completed the task. However, in teachers, all the
+    badges appear in gray because teacher does not have progress. My task is to make them all orange
+    in the teacher dashboard. Similar to previous task, I tracked the code to the place where the
+    component is defined and added a user type control to define the color and the existence of
+    badges.
 
 * Performance and Outcomes
   # You must have all these sections in your report.
