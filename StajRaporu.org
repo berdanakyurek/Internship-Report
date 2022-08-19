@@ -40,7 +40,7 @@
    system. However, there were people using Mac and Linux computers as well.
 
    The company uses Bitbucket[cite:@bitbucket] for source code hosting. For the project I worked on,
-   ReactJS[cite:@react] is used for front-end and PHP is used for back-end.
+   ReactJS[cite:@react] is used for developing the front-end.
 
 ** About your supervisor
 
@@ -69,7 +69,8 @@
    to add some extra features that were not present in the original tutorial. Therefore, I added
    filtering feature, where user can filter todos as all todos, only completed todos or only active
    todos. Lastly, I added a Dark mode feature where user can choose to use dark mode instead of
-   white mode. I  pushed the resulting project in a public GitHub repository[cite:@reacttest].
+   white mode. I  pushed the resulting project in a public GitHub
+   repository[cite:@reacttest]. Appendix 1 shows a screenshot of the project.
 
 *** Learning Service Usage
     After learning React generally, my supervisor asked me to implement a project that uses an API
@@ -79,7 +80,7 @@
     it. When the page is refreshed, all content is fetched again. After understanding what it does,
     I implemented the project on my own, without following the tutorial. I focused on technical side
     like using services rather than aesthetics. I pushed the resulting project in a public GitHub
-    repository[cite:@reacttour].
+    repository[cite:@reacttour]. Appendix 2 shows a screenshot of the project.
 
 *** Learning React Routers
     After completing my first project and checking with my supervisor, my supervisor asked me to
@@ -97,7 +98,7 @@
     web page content is sent back by the server. However, using React and Routers, this is reduced
     to a single request. At the first connection, user takes the contents of pages and loading
     another page is done on the client-side. I pushed the resulting project in a public GitHub
-    repository again[cite:@routerexample].
+    repository again[cite:@routerexample]. Appendix 3 shows a screenshot of the project.
 
 *** Learning React Redux
     Later, I started learning about Redux and its usage with React. In order to do this, I followed
@@ -114,13 +115,14 @@
     buttons to increment and decrement the counter value by one. Although it is not very convenient
     to use Redux in this project, it was useful to learn because it takes time to set up Redux and
     it is easier to not to use in small projects. However, it was helpful to learn how the concept
-    works. The resulting project is pushed in a public GitHub repository[cite:@reduxexample].
+    works. The resulting project is pushed in a public GitHub
+    repository[cite:@reduxexample]. Appendix 4 shows a screenshot of the project.
 
-** Starting with Mentonet
+** Mentonet
    After completing all tasks and checking them with my supervisor, I am granted access to a real
    project which is called Mentonet[cite:@mentonet]. This project is a website for sharing surveys
    with students. It is still not deployed and under development. It is being developed using
-   ReactJS on front-end and PHP on back-end. Its source code is stored in Bitbucket.
+   ReactJS. Its source code is stored in Bitbucket.
 
 *** Setup and Adaptation
     In order to start the project, I created a Bitbucket account and company invited me to the
@@ -135,7 +137,7 @@
     After getting used to the project, my supervisor asked me to implement the settings page of
     Mentonet. Using this page, an administrator can set the settings like the deadline and the goal
     of the survey. Similarly, it is possible to set which degrees are going to solve the survey
-    using this screen as well. A screenshot of this screen is included in Appendix 1.
+    using this screen as well. A screenshot of this screen is included in Appendix 5.
 
 *** Formatting Surveys List
     After completing the Settings page, my supervisor asked me to format the survey list page. In
@@ -145,7 +147,7 @@
     implemented, however I formatted this page so that more information is displayed, and full
     description of the survey is displayed on a popover when hovered on a list item. Necessary
     changes are done on the routers in order to display different buttons for administrators and
-    guests. A screenshot of this screen is included in Appendix 2.
+    guests. A screenshot of this screen is included in Appendix 6.
 
 *** Solve Survey Page
     When I completed all work with the surveys list, I am asked to implement survey solving
@@ -154,7 +156,7 @@
     can submit the form by clicking on a button. Implementation of this page is done using the
     implementation of survey creation page. Since survey creation page is similar to survey solving
     page, it was possible to make some changes on the code to implement the new code, instead of
-    starting from scratch. A screenshot of this page is included in Appendix 3.
+    starting from scratch. A screenshot of this page is included in Appendix 7.
 
 *** Solving Layout Problems
     After implementing the previous features, my supervisor realized an unexpected shift in the
@@ -162,7 +164,8 @@
     layout. I switched back to my previous commits to understand where exactly the problem
     occurs. After finding the commit the error started to occur, we tried to figure out why it is
     broken. I compared execution of previous version with current one. I copied and pasted each line
-    of code to new version and figured out which line exactly was the problem and solved it.
+    of code to new version and figured out which line exactly was the problem and solved
+    it. Appendix 8 shows a screenshot of the layout problem that is solved.
 
 ** Metodbox
    When the above tasks were completed, my supervisor asked me to move to another project, called
@@ -186,7 +189,7 @@
     empty. Later, I followed the variable starting from its definition and each change of
     it. Finally, I found the place where the error occurs and solved it. Although the total change I
     made was around five lines of code, it took me hours to figure out the problem before making the
-    necessary change.
+    necessary change. A screenshot of this page is included in Appendix 9.
 
 *** Class Card Modifications
     After solving my first bug of the project, I am asked to make two more changes. These were due
@@ -200,7 +203,7 @@
     badges appear in gray because teacher does not have progress. My task is to make them all orange
     in the teacher dashboard. Similar to previous task, I tracked the code to the place where the
     component is defined and added a user type control to define the color and the existence of
-    badges.
+    badges. Screenshot of student page and both old and new versions are in Appendix 10;
 
 * Performance and Outcomes
   # You must have all these sections in your report.
@@ -250,4 +253,50 @@
 
 * Appendices
 
-#+PRINT_BIBLIOGRAPHY:
+** Appendix 1
+*** A screenshot of Todo-List project
+    [[./Images/Learning/todo_list.png]]
+
+
+** Appendix 2
+*** A screenshot of Tours project
+    [[./Images/Learning/tours.png]]
+
+** Appendix 3
+
+*** A screenshot of example Router project
+    [[./Images/Learning/router_example.png]]
+
+
+** Appendix 4
+*** A screenshot of example Redux project
+    [[./Images/Learning/redux_counter.png]]
+
+** Appendix 5
+*** A screenshot of Mentonet settings page
+    [[./Images/Mentonet/settings_page.png]]
+
+** Appendix 6
+*** A screenshot of Mentonet survey list page
+    [[./Images/Mentonet/survey_list.png]]
+
+** Appendix 7
+*** A screenshot of Mentonet survey solving screen
+    [[./Images/Mentonet/survey_solve.png]]
+
+** Appendix 8
+*** A screenshot of the layout problem that is solved in Mentonet
+    [[./Images/Mentonet/layout_problem.png]]
+
+** Appendix 9
+*** A screenshot of Metodbox selected week homeworks page
+    [[./Images/Metodbox/calendar_homeworks.png]]
+
+** Appendix 10
+
+*** A screenshot of Metodbox student classes page
+    [[./Images/Metodbox/student_classes.png]]
+*** A screenshot of Metodbox teacher classes page without the modifications
+    [[./Images/Metodbox/teacher_classes_previous.png]]
+*** A screenshot of Metodbox teacher classes page with modifications
+    [[./Images/Metodbox/teacher_classes_completed.png]]
