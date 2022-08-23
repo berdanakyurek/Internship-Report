@@ -32,6 +32,10 @@
 
 ** About your department
 
+   During the internship, I became a part of web development department. Since most BK Mobil
+   products are available as both mobile and web, there are departments responsible for both of
+   them. I was in the team that was responsible from the web front-end.
+
 ** About the hardware and software systems
 
    The company was flexible in terms of hardware and software. Although they offered to give me a
@@ -289,13 +293,42 @@
     efficient way is searched. This way unnecessary resource usage is prevented. This way the users
     can reach the content provided with small amount of data, battery, CPU usage etc. This is an
     ethical responsibility of the developer against both the users and the nature. For example,
-    instead of sending request for each page each time, less requests are used and navigation among
-    pages is done on client side. This way the communication cost is reduced.
+    instead of sending request for each page each time, routers are used and navigation among pages
+    is done on client side. This way the communication cost is reduced.
 
 *** Professional Responsibilities
 
+    Similarly, I had professional responsibilities too. For example, while writing code, I tried to
+    make it as readable as possible. Since I am not the only person that is working on this project
+    and I am only an intern, the project will be maintained by other people. Therefore, leaving them
+    a readable code increases their productivity and this is my responsibility to the company. In
+    order to keep the code readable, I tried to make variable names as self-explanatory as
+    possible and write components in an organized way. I tried to follow code conventions and
+    organization styles I face while reading the code. As another professional responsibility, I
+    protected the company code and I did not share any company code or document with people that are
+    outside of the company.
+
 
 ** Making Informed Judgments
+
+   In his alienation theory, Marx says that working class is alienated to their own labor due
+   to the capitalist market and society. This alienation is due to the fact that the working class
+   is selling their labor to the bourgeoisie and they have no right on the resulting
+   product. Therefore, the real meaning, results, and impacts of the product produced are apart from
+   the consciousness of the worker. Worker has to sell his/her labor by doing whatever he/she is
+   asked for without questioning in order to earn a small amount of salary. Workers are simply gears
+   of a machine and not more. Acting like engineers are super creatures that always question things
+   cannot hide the fact that engineers and engineering interns are simply workers. Therefore,
+   someone tells us to do something and we do it.
+
+   Informed judgments require information as name suggests. However, the information required to
+   make such judgments are hidden from the worker in case of capitalism. Similarly, due to the same
+   alienation, interns who are workers are unable to make high level decisions. Interns can only
+   make low level decisions like using switch-case instead of if-else or changing the color of a
+   button. Not surprisingly, these low level decisions have no social, economical, global or
+   environmental impacts. The high-level decisions are done by someone else and a mock-up hiding
+   this high-level decisions is provided to us so that we are limited to the decisions made to
+   people on top of us.
 
 ** Acquiring New Knowledge by Using Appropriate Learning Strategies
 
