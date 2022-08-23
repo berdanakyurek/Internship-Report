@@ -205,6 +205,73 @@
     component is defined and added a user type control to define the color and the existence of
     badges. Screenshot of student page and both old and new versions are in Appendix 10;
 
+*** Metodbox Club
+    After completing the previous parts, I moved to a new project called Metodbox Club. Although it
+    is a separate project, it can be considered as a part of Metodbox due to their integration and
+    together use. Using Metodbox Club, student clubs of schools are organized and managed
+    easily. Using Metodbox Club, administrators can decide which clubs will be opened and they can
+    organize them under categories, sub-categories and groups. Also they can decide on which clubs
+    will be active for each semester. Teachers can be assigned to clubs, new clubs can be generated
+    or existing clubs can be deleted etc. Similarly, teachers can manage the clubs they are
+    responsible of using Metodbox Club. Lastly, students can select and enroll clubs using Metodbox
+    Club. It is still under development but it is expected to complete it before the Fall semester
+    begins.
+
+**** Club Creation Page
+     As my first task, I am asked to design the club creation screen. In this screen, an
+     administrator needs to type the club information like name, grades that are able to join that
+     club, description etc. This way, custom clubs can be generated. I designed this page as shown
+     in Appendix 11. Later, I am asked to do the necessary API connections with back-end. To do
+     this, I am asked to install Postman[cite:@postman]. I installed and learned to send requests
+     with it. After trying and testing requests with Postman, I embedded the requests into code and
+     made it work. Page is taking category, subcategory and group names that are shown in the
+     screenshot are taken from API via a GET request as well as grade options under the drop-down
+     menu. Similarly, the collected information is sent to the API via a POST request to create a
+     new club. Lastly, when user tries to cancel club creation, it is asked to the user whether
+     he/she is sure or not.
+
+**** File Upload
+     After creating a new club, users can upload files to it. This way necessary club documentation
+     is shared with students and teachers. In order to do this, I designed a file upload page as
+     shown in Appendix 12. It was possible to select a file using this page however due to the
+     problems in the API, it was not possible to send it to the server.
+
+**** Catalog Page
+     Catalog page is the page where administrator can see a list of clubs. In this list, he/she can
+     filter the clubs by category, subcategory, group or grade. Filtering is done on the client side
+     since API does not provide a function to fetch clubs with filters. By selecting a season and
+     semester and clicking the checkbox next to a club, he/she can enable or disable that club for
+     that semester. Lastly, he/she can preview and edit a club by clicking the eye button next to
+     it. This page is designed and made working by doing necessary API connections. A screenshot of
+     this page is included in Appendix 13.
+
+**** Club Edit
+     When a club is selected to edit from the catalog, club edit page is displayed. This page is
+     actually exactly the same as create club page. However, in this case fields are not empty but
+     they have default values. Therefore, instead of creating a new page, I edited the club create
+     page by passing a club ID parameter. If there is no parameter passed to page, the fields come
+     empty and results are sent via a POST request. However, if parameter is passed, the information
+     of the club is fetched via e GET request and when clicked on save button, result is sent with a
+     PUT request instead of POST to update values.
+
+**** Modifications in Categories Page
+     Categories Page shows categories, subcategories and groups in a hierarchical view as shown in
+     Appendix 14. Some modifications are done in this page as described below.
+
+***** Add Club Button
+      Next to each group item, a plus button is added. When this button is clicked, club creation
+      page opens with the information of that category, subcategory and group.
+
+***** Category Setting Button
+      Next to each category, a settings button is added. When this button is clicked, a Modal Box
+      pops up and it is possible to manage settings of that category in this Modal Box.
+
+***** Category Settings Modal Box
+      In this modal box, it is possible to select the lower and upper limits of clubs that can be
+      joined from a particular category. A screenshot of this page is included in Appendix 15. After
+      collecting the necessary information and getting the button click, it sends the information
+      collected to the API. This page appears whenever settings button is clicked on categories page.
+
 * Performance and Outcomes
   # You must have all these sections in your report.
 
@@ -300,3 +367,27 @@
     [[./Images/Metodbox/teacher_classes_previous.png]]
 *** A screenshot of Metodbox teacher classes page with modifications
     [[./Images/Metodbox/teacher_classes_completed.png]]
+
+** Appendix 11
+
+*** A screenshot of club creation page of Metodbox Club
+    [[./Images/Metodbox/MetodboxClub/create_club.png]]
+
+** Appendix 12
+
+*** A screenshot of club file upload page of Metodbox Club
+    [[./Images/Metodbox/MetodboxClub/upload_file.png]]
+
+** Appendix 13
+
+*** A screenshot of Metodbox Club catalog page
+    [[./Images/Metodbox/MetodboxClub/catalog.png]]
+** Appendix 14
+
+*** A screenshot of Metodbox Club categories page
+    [[./Images/Metodbox/MetodboxClub/categories.png]]
+
+** Appendix 15
+
+*** A screenshot of Metodbox Club category settings modal box
+    [[./Images/Metodbox/MetodboxClub/category_settings.png]]
