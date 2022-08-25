@@ -2,12 +2,41 @@
 
 * Introduction
 
-  # In this section make an introduction to your report and give brief information about where you have done your training (more info about that will be given in the next section) and your motivation for choosing this place. Briefly summarize the work you have done, the motivation behind your work, and the significance of the work you have done in the overall project.
-  # Please remove these explanations in this template after you read them or while you are writing your report. These explanations are marked with yellow color like here. Make sure you read and correct your report a few times after you write it.
-  # Please modify the parts that are marked with green color in this template according to your case (for example in the Cover Page).
-  # You need to be careful about putting references to the end of the report and citing them properly in the text like the example just here [2,4,5,10]. You can cite a single reference like this [3].
-  # Please make sure you follow a good writing style while writing your report. There are a lot of resources in Internet and Library about academic/report writing in English language. Information about some writing resources that you can benefit are added to the reference list at the end [1,2,3,4,12,13].
-  # Please also explain the organization of the rest of the report in the last paragraph of this section.
+  # In this section make an introduction to your report and give brief information about where you
+  # have done your training (more info about that will be given in the next section) and your
+  # motivation for choosing this place. Briefly summarize the work you have done, the motivation
+  # behind your work, and the significance of the work you have done in the overall project.
+  # Please remove these explanations in this template after you read them or while you are writing
+  # your report. These explanations are marked with yellow color like here. Make sure you read and
+  # correct your report a few times after you write it.
+  # Please modify the parts that are marked with green color in this template according to your case
+  # (for example in the Cover Page).
+  # You need to be careful about putting references to the end of the report and citing them
+  # properly in the text like the example just here [2,4,5,10]. You can cite a single reference like
+  # this [3].
+  # Please make sure you follow a good writing style while writing your report. There are a lot of
+  # resources in Internet and Library about academic/report writing in English language. Information
+  # about some writing resources that you can benefit are added to the reference list at the end
+  # [1,2,3,4,12,13].
+  # Please also explain the organization of the rest of the report in the last paragraph of this
+  # section.
+
+  This summer, I completed my second summer internship at BK Mobil, which is a software company
+  specialized in education domain. I choose this company because I find education sector morally
+  more appropriate for me, since I find working in industries like finance and defense morally
+  problematic. BK Mobil is a company that is creating only education applications, therefore it was
+  a good option for me.
+
+  During my internship, I worked on the front-end of three different projects which are called
+  Mentonet, Metodbox and Metodbox Club which are all used by students and school staff to increase
+  the efficiency of the learning process. During the internship, I learned a lot. First of all, I
+  learned a new technology, ReactJS, which I had no experience before. Secondly, I learned a lot
+  about the development processes of a real-life project. I am very happy to be a part of real
+  projects that will be used by real people.
+
+  During the rest of the report, there will be a part where I give brief information about the
+  company where I completed my internship, a part about the details of the work I have done and a
+  section where I explain how I satisfy the expectations of the University.
 
 * Company Information
 
@@ -317,9 +346,9 @@
    product. Therefore, the real meaning, results, and impacts of the product produced are apart from
    the consciousness of the worker. Worker has to sell his/her labor by doing whatever he/she is
    asked for without questioning in order to earn a small amount of salary. Workers are simply gears
-   of a machine and not more. Acting like engineers are super creatures that always question things
-   cannot hide the fact that engineers and engineering interns are simply workers. Therefore,
-   someone tells us to do something and we do it.
+   of a machine and not more. Acting like engineers are people that always question things cannot
+   hide the fact that engineers and engineering interns are simply workers. Therefore, someone tells
+   us to do something and we do it.
 
    Informed judgments require information as name suggests. However, the information required to
    make such judgments are hidden from the worker in case of capitalism. Similarly, due to the same
@@ -342,14 +371,23 @@
 ** Applying New Knowledge As Needed
 
    The knowledge learned and explained in the previous section are used during the tasks assigned to
-   me. Programming with React, which was a new skill for me was used in a real-life project called
-   Mentonet. Sub-concepts like Redux and Routers are also very useful in Mentonet. The transitions
-   between pages are implemented in an organized and readable way using React routers. Similarly,
-   the communication between front-end and back-end are handled using Redux with a similar organized
-   and readable approach.
+   me. Programming with React, which was a new skill for me was used in real-life project called
+   Mentonet and Metodbox. Sub-concepts like Redux and Routers are also very useful in both
+   projects. The transitions between pages are implemented in an organized and readable way using
+   React routers. Similarly, the communication between front-end and back-end are handled using
+   Redux with a similar organized and readable approach.
 
 * Conclusions
-  # Here you will write your conclusions. You can discuss your training and the company as well. Give a summary of the most important things you learned.
+  # Here you will write your conclusions. You can discuss your training and the company as
+  # well. Give a summary of the most important things you learned.
+
+  In conclusion, I had a good internship experience this summer. I became a part of a real team and
+  observed the good and bad sides of the working environment. I learned the differences between
+  university and industry. The expectations of the industry is much different compared to the
+  expectations of the university. Similarly, I had many team work experience which are very
+  different from the university group projects. Working in a company was much more planned,
+  organized and professional. Lastly, I realized how important was the knowledge I learned in
+  university in working life.
 
 * Appendices
 
