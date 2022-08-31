@@ -1,5 +1,9 @@
 #+bibliography: references.bib
 
+#+begin_export latex
+\clearpage
+#+end_export
+
 * Introduction
 
   # In this section make an introduction to your report and give brief information about where you
@@ -37,6 +41,9 @@
   During the rest of the report, there will be a part where I give brief information about the
   company where I completed my internship, a part about the details of the work I have done and a
   section where I explain how I satisfy the expectations of the University.
+
+  At the end of the report, there are screenshots of the projects I worked on. All user names
+  including test users are censored in the screenshots, due to the company restrictions.
 
 * Company Information
 
@@ -305,10 +312,40 @@
       collecting the necessary information and getting the button click, it sends the information
       collected to the API. This page appears whenever settings button is clicked on categories page.
 
+**** Manager Edit Page
+     Later, I am asked to implement manager edit page. In this page, a manager can edit a club by
+     setting the section numbers, the quota for each section and assigning teachers for each
+     section. I implemented this page as requested. A screenshot of the resulting page is provided
+     in the Appendix 16.
+
+**** Student Assignment Page
+     After completing the manager edit page, I implemented the student assignment page. In this
+     page, a manager can see a list of students. He/she can start an automatic assignment by using
+     this page. Other than that, he/she can able to assign students to clubs manually. After
+     designing the page, necessary API connections are done and the page is made
+     functional. Screenshots of this page can be found on Appendix 17.
+
+**** Bug Fixes and Improvements
+     Lastly, I am provided with a test document where detected bugs and problems are documented. I
+     used this document to fix bugs like wrong date formats and some functionalities are not working
+     as expected. Therefore, I fixed the bugs that are related to the parts that is implemented by
+     me.
+
 * Performance and Outcomes
   # You must have all these sections in your report.
 
 ** Solving Complex Engineering Problems
+
+   During my internship, I faced many complex engineering problems and I used my problem solving
+   skills as much as I can to solve them. The first and most important engineering problem was
+   efficiency. Sometimes when I do something, I realized that it is not as efficient as it should
+   be. This leads to a non-responsive user experience. Therefore, I needed to find more efficient
+   ways to improve the user experience. Whenever it is hard to solve this problem on front-end, I
+   asked to back-end team to provide me some new API's. Especially for sorting and searching
+   problems, I could not achieve the required efficiency on front end, therefore search and sort is
+   done on back-end. However, I also realized that there are many jobs that I perform
+   inefficiently. During the internship, I learned to overcome this and write more efficient code as
+   much as I can.
 
 ** Recognizing Ethical and Professional Responsibilities
 
@@ -340,24 +377,20 @@
 
 ** Making Informed Judgments
 
-   In his alienation theory, Marx says that working class is alienated to their own labor due
-   to the capitalist market and society. This alienation is due to the fact that the working class
-   is selling their labor to the bourgeoisie and they have no right on the resulting
-   product. Therefore, the real meaning, results, and impacts of the product produced are apart from
-   the consciousness of the worker. Worker has to sell his/her labor by doing whatever he/she is
-   asked for without questioning in order to earn a small amount of salary. Workers are simply gears
-   of a machine and not more. Acting like engineers are people that always question things cannot
-   hide the fact that engineers and engineering interns are simply workers. Therefore, someone tells
-   us to do something and we do it.
-
-   Informed judgments require information as name suggests. However, the information required to
-   make such judgments are hidden from the worker in case of capitalism. Similarly, due to the same
-   alienation, interns who are workers are unable to make high level decisions. Interns can only
-   make low level decisions like using switch-case instead of if-else or changing the color of a
-   button. Not surprisingly, these low level decisions have no social, economical, global or
-   environmental impacts. The high-level decisions are done by someone else and a mock-up hiding
-   this high-level decisions is provided to us so that we are limited to the decisions made to
-   people on top of us.
+   During my internship, I considered the impacts of the projects I worked on in global, economical,
+   environmental and social context. Since the projects were real projects with many real users, it
+   is expected that it has a high impact. Firstly, although BK Mobil products are currently used by
+   the schools in Turkey, they are all generic products and they are meant to be used by any
+   school. Therefore, the open to be used in a global scale and it is expected to have a positive
+   impact on the students and teachers from all over the world. Secondly, BK Mobil products increase
+   the efficiency of teaching process. The increase in the efficiency leads to economical impact
+   since the value produced can be increased or required labor is decreased. Therefore, the project
+   I worked on has an economical impact. Third, BK Mobil products does not expected to have any
+   environmental impact, since it is not directly connected to any environment related use
+   case. Lastly, in terms of social impacts, the products I worked on are used in order to improve
+   the communication both between students and between students and teachers. For example, using
+   Metodbox Club, student clubs are encouraged and made functional. This has a positive social
+   impact on students.
 
 ** Acquiring New Knowledge by Using Appropriate Learning Strategies
 
@@ -392,73 +425,76 @@
 * Appendices
 
 ** Appendix 1
-*** A screenshot of Todo-List project
-    [[./Images/Learning/todo_list.png]]
+   + A screenshot of Todo-List project
+     [[./Images/Learning/todo_list.png]]
 
 
 ** Appendix 2
-*** A screenshot of Tours project
-    [[./Images/Learning/tours.png]]
+   + A screenshot of Tours project
+     [[./Images/Learning/tours.png]]
 
 ** Appendix 3
-
-*** A screenshot of example Router project
-    [[./Images/Learning/router_example.png]]
+   + A screenshot of example Router project
+     [[./Images/Learning/router_example.png]]
 
 
 ** Appendix 4
-*** A screenshot of example Redux project
-    [[./Images/Learning/redux_counter.png]]
+   + A screenshot of example Redux project
+     [[./Images/Learning/redux_counter.png]]
 
 ** Appendix 5
-*** A screenshot of Mentonet settings page
-    [[./Images/Mentonet/settings_page.png]]
+   + A screenshot of Mentonet settings page
+     [[./Images/Mentonet/settings_page.png]]
 
 ** Appendix 6
-*** A screenshot of Mentonet survey list page
-    [[./Images/Mentonet/survey_list.png]]
+   + A screenshot of Mentonet survey list page
+     [[./Images/Mentonet/survey_list.png]]
 
 ** Appendix 7
-*** A screenshot of Mentonet survey solving screen
-    [[./Images/Mentonet/survey_solve.png]]
+   + A screenshot of Mentonet survey solving screen
+     [[./Images/Mentonet/survey_solve.png]]
 
 ** Appendix 8
-*** A screenshot of the layout problem that is solved in Mentonet
-    [[./Images/Mentonet/layout_problem.png]]
+   + A screenshot of the layout problem that is solved in Mentonet
+     [[./Images/Mentonet/layout_problem.png]]
 
 ** Appendix 9
-*** A screenshot of Metodbox selected week homeworks page
+   + A screenshot of Metodbox selected week homeworks page
     [[./Images/Metodbox/calendar_homeworks.png]]
 
 ** Appendix 10
-
-*** A screenshot of Metodbox student classes page
-    [[./Images/Metodbox/student_classes.png]]
-*** A screenshot of Metodbox teacher classes page without the modifications
+   + A screenshot of Metodbox student classes page
+     [[./Images/Metodbox/student_classes.png]]
+   + A screenshot of Metodbox teacher classes page without the modifications
     [[./Images/Metodbox/teacher_classes_previous.png]]
-*** A screenshot of Metodbox teacher classes page with modifications
+   + A screenshot of Metodbox teacher classes page with modifications
     [[./Images/Metodbox/teacher_classes_completed.png]]
 
 ** Appendix 11
-
-*** A screenshot of club creation page of Metodbox Club
-    [[./Images/Metodbox/MetodboxClub/create_club.png]]
+   + A screenshot of club creation page of Metodbox Club
+     [[./Images/Metodbox/MetodboxClub/create_club.png]]
 
 ** Appendix 12
-
-*** A screenshot of club file upload page of Metodbox Club
-    [[./Images/Metodbox/MetodboxClub/upload_file.png]]
+   + A screenshot of club file upload page of Metodbox Club
+     [[./Images/Metodbox/MetodboxClub/upload_file.png]]
 
 ** Appendix 13
+   + A screenshot of Metodbox Club catalog page
+     [[./Images/Metodbox/MetodboxClub/catalog.png]]
 
-*** A screenshot of Metodbox Club catalog page
-    [[./Images/Metodbox/MetodboxClub/catalog.png]]
 ** Appendix 14
-
-*** A screenshot of Metodbox Club categories page
-    [[./Images/Metodbox/MetodboxClub/categories.png]]
+   + A screenshot of Metodbox Club categories page
+     [[./Images/Metodbox/MetodboxClub/categories.png]]
 
 ** Appendix 15
+   + A screenshot of Metodbox Club category settings modal box
+     [[./Images/Metodbox/MetodboxClub/category_settings.png]]
 
-*** A screenshot of Metodbox Club category settings modal box
-    [[./Images/Metodbox/MetodboxClub/category_settings.png]]
+** Appendix 16
+   + A screenshot of Metodbox Club manager edit page
+     [[./Images/Metodbox/MetodboxClub/manager_edit_club.png]]
+
+** Appendix 17
+   + Screenshots of Metodbox Club student assignments page
+     [[./Images/Metodbox/MetodboxClub/assignment_page.png]]
+     [[./Images/Metodbox/MetodboxClub/student_assign_clubs_list.png]]
